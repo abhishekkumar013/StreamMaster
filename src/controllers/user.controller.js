@@ -263,6 +263,19 @@ export const updateAccountDetails = asyncHandler(async (req, res) => {
     { new: true },
   ).select('-password')
 
+   // Create the update object dynamically
+  /*
+  const updateData = {}
+  if (fullname) updateData.fullname = fullname
+  if (email) updateData.email = email
+
+  // Find and update the user
+  const user = await User.findByIdAndUpdate(
+    req.user?._id,
+    { $set: updateData },
+    { new: true }
+  ).select('-password') */
+
   return res
     .status(200)
     .json(new ApiResponse(200, user, 'Updated Successfully'))
