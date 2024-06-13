@@ -1,4 +1,4 @@
-# Voting App
+# StreamMaster: A Comprehensive Video Streaming Platform
 
 ## Overview
 This project is a Node.js application that provides a variety of endpoints for managing users, videos, playlists, subscriptions, likes, comments, and more. The application leverages JSON Web Tokens for authentication, bcrypt for password hashing, Mongoose for MongoDB object modeling, and aggregation for complex data retrieval.
