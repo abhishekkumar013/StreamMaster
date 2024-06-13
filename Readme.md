@@ -22,10 +22,10 @@ This project is a Node.js application that provides a variety of endpoints for m
 ## Setup and Installation
 1. **Clone the repository**:
    ```sh
-   https://github.com/abhishekkumar013/Youtube-Backend.git
+   https://github.com/abhishekkumar013/StreamMaster.git
 2. **Navigate to the project directory**:
    ```sh
-   cd Youtube-Backend
+   cd StreamMaster
 3. **Install backend dependencies**:
    ```sh
    npm install
